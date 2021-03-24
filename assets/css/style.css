@@ -11,7 +11,18 @@ body {
     background-color: snow;
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 5% 10% 15% 40% 30%;
+    grid-template-rows: 5% 10% 85%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
 }
 
 header {
@@ -36,11 +47,15 @@ img {
     margin: 0;
 }
 
-.lstxt {
+aside {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .abtme {
@@ -48,4 +63,23 @@ img {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.bigpic {
+    margin: 0;
+    width: 45%;
+    height: 45%;
+}
+
+.smllrpics {
+    margin: 0;
+    width: 25%;
+    height: 25%;
 }
