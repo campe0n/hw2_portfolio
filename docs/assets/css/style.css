@@ -287,13 +287,13 @@ li {
     }
 
     .bigpic {
-        width: 20%;
-        height: 5%;
+        width: 60%;
+        height: 40%;
     }
 
     .smallerpics {
-        width: 5%;
-        height: 3.5%;
+        width: 10%;
+        height: 5%;
     }
   
     ul {
@@ -320,13 +320,13 @@ li {
     }
 
     .bigpic {
-        width: 30%;
-        height: 25%;
+        width: 50%;
+        height: 30%;
     }
 
     .smallerpics {
-        width: 5%;
-        height: 3.5%;
+        width: 10%;
+        height: 5%;
     }
   
     ul {
@@ -352,13 +352,13 @@ li {
     }
 
     .bigpic {
-        width: 30%;
-        height: 25%;
+        width: 50%;
+        height: 30%;
     }
 
     .smallerpics {
-        width: 5%;
-        height: 3.5%;
+        width: 10%;
+        height: 5%;
     }
   
     ul {
