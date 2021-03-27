@@ -11,7 +11,7 @@ body {
     background-color: #EDEDF6;
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows:  5% 20% 75%;
+    grid-template-rows:  5% 20% auto;
 }
 
 header {
@@ -42,7 +42,7 @@ aside {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 5;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -51,20 +51,28 @@ aside {
    
 }
 
+.abtme {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0;
+}
+
 main {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 5;
     width: 100%;
     height: 100%;
     margin: 0;
   
 }
 
-.abtmetxt {
+.abtme {
     width: 100%;
-    height: 26%;
+    height: 24%;
 }
 
 .projects {
@@ -76,6 +84,7 @@ main {
 .contactme {
     width: 100%;
     height: 25%;
+    margin-top: 5%;
 }
 
 h1 {
@@ -105,12 +114,14 @@ h2, h3, h4 {
 p {
     width: 90%;
     height: 25%;
-    font-size: 100%;
+    font-size: 200%;
     margin-top: 2%;
+    margin-bottom: 50%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
     color: #465A79;
+    flex-shrink: 1;
 }
 
 nav {
@@ -195,12 +206,14 @@ li {
 
 /* tablet*/
 @media screen and (max-width: 768px) {
-    .abtmetxt {
-       font-size: 5px;
-   }
+    main, aside, header {
+        font-size: 12px;
+    }
   }
   
   /* phone */
   @media screen and (max-width: 375px) {
-      
+    main {
+        width: 50%;
+    }
   }
