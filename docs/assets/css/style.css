@@ -138,6 +138,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 li {
@@ -205,7 +206,7 @@ li {
 }
 
 /* Large laptop */
-@media screen and (max-width: 1440px;) {
+@media screen and (max-width: 1440px) {
     .abtme {
         font-size: 10px;
     }
@@ -249,8 +250,15 @@ li {
 
 /* tablet*/
 @media screen and (max-width: 768px) {
+    body {
+        grid-template-rows:  5% 10% auto;
+    }
     .abtme {
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    img {
+        height: 100%;
     }
 
     .bigpic {
@@ -269,13 +277,13 @@ li {
 }
 
 /* large mobile */
-@media screen and (max-width: 425px;) {
+@media screen and (max-width: 425px) {
     aside {
-        font-size: 4px
+        font-size: 10px
     }
 
     .abtme {
-        font-size: 2px;
+        font-size: 5px;
     }
 
     .bigpic {
@@ -288,19 +296,27 @@ li {
         height: 3.5%;
     }
   
+    ul {
+        font-size: 8px;
+    }
+
     li {
-        font-size: 60%;
+        font-size: 8px;
     }
 }
 
 
   /* phone */
   @media screen and (max-width: 375px) {
+    header {
+        font-size: 10px;
+    }
+
     aside {
-        font-size: 8px
+        font-size: 10px
     }
     .abtme {
-        font-size: 4px;
+        font-size: 5px;
     }
 
     .bigpic {
@@ -313,18 +329,26 @@ li {
         height: 3.5%;
     }
   
+    ul {
+        font-size: 8px;
+    }
+
     li {
-        font-size: 60%;
+        font-size: 8px;
     }
   }
 
  /* phone */
  @media screen and (max-width: 320px) {
+    header {
+        font-size: 10px;
+    }
+
     aside {
-        font-size: 8px
+        font-size: 10px
     }
     .abtme {
-        font-size: 4px;
+        font-size: 5px;
     }
 
     .bigpic {
@@ -337,7 +361,11 @@ li {
         height: 3.5%;
     }
   
+    ul {
+        font-size: 8px;
+    }
+
     li {
-        font-size: 60%;
+        font-size: 8px;
     }
   }
