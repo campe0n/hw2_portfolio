@@ -7,4 +7,4 @@ hw2_portfolio is a personal web developer page. The purpose of this application 
 ![screenshot](https://github.com/campe0n/hw2_portfolio/blob/main/assets/images/Capture.PNG)
 
 # Link
-[Live Url](http://127.0.0.1:5500/index.html#contactme)
+[Live Application Url](http://127.0.0.1:5500/index.html#contactme)
